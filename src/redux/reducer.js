@@ -37,7 +37,7 @@ const filtersInitialState = {
 
 const filtersReducer = (state = filtersInitialState, action) => {
   switch (action.type) {
-    case "filters/setStatusFilter":
+    case "filters/setFilterStatus":
       return {
         ...state,
         status: action.payload,
